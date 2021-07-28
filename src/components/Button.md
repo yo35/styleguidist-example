@@ -1,5 +1,13 @@
 Basic button:
 
+**Wrong links**
+
+With a custom label:
+[SAN string](https://en.wikipedia.org/wiki/Algebraic_notation_(chess))
+
+Just the link:
+https://en.wikipedia.org/wiki/Algebraic_notation_(chess)
+
 ```jsx
 <Button>Push Me</Button>
 ```
