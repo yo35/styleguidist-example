@@ -24,6 +24,15 @@ Button.propTypes = {
 	 * Button label.
 	 */
 	children: PropTypes.string.isRequired,
+
+	/**
+	 * Callback invoked in some circumstances described here
+	 *
+	 * @param {string} valueStr First arg description
+	 * @param {number} valueNum Second arg description
+	 */
+	myCallback: PropTypes.func,
+
 	color: PropTypes.string,
 	size: PropTypes.oneOf(['small', 'normal', 'large']),
 };
